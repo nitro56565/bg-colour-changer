@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+.box{
+    border: solid white 4px;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+}
+#red-box{
+    background-color: red;
+}
+#blue-box{
+    background-color: blue;
+}
+#green-box{
+    background-color: green;
+}
+#black-box{
+    background-color: black;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
